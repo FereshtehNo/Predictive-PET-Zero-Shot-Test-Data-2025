@@ -1,5 +1,4 @@
 # Predictive-PET-Zero-Shot-Test-Data-2025
-# PersiZyme – PETase Engineering Tournament 2025 (Zero-Shot Track)
 
 **Team Name:** PersiZyme  
 **Organized by:** The Align Foundation  
