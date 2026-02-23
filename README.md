@@ -71,10 +71,8 @@ Key distributions and correlations from our predictions:
 Many variants show high activity (>0.08) across broad expression ranges (0.55–0.65 mg/mL), highlighting balanced candidates.
 
 ![Activity vs Expression Scatter Plot](activity_vs_expression.png)
-<!-- اگر عکس رو با نام دیگه‌ای آپلود کردی، لینک یا نام فایل رو اینجا تغییر بده. مثلاً:  
 ![Activity vs Expression](figures/activity_vs_expression.png) -->
 
-(برای نمایش بهتر عکس: فایل PNG/JPG رو در repo آپلود کن، ترجیحاً در فولدر `figures/` یا مستقیم در root. GitHub خودش رندر می‌کنه.)
 
 ## Scientific Rigor & Reproducibility
 - Dimensional consistency in all calculations  
@@ -84,19 +82,5 @@ Many variants show high activity (>0.08) across broad expression ranges (0.55–
 
 ## Code Structure
 - `mw_calculation.py` → Molecular weight from FASTA  
-- `kcat_prediction.ipynb` → Integration with Kroll model (or wrapper)  
-- `activity_conversion.py` → kcat to specific activity  
-- `netsolp_integration.py` → Solubility scoring (if scripted)  
-- `requirements.txt` → Dependencies (pandas, biopython, etc.)  
-- `figures/` → Plots (including activity_vs_expression.png)
+- `convert-Kcat-to-Activity.py` → kcat to specific activity  
 
-## Citation & Acknowledgments
-If you find this work useful, please cite:
-- Kroll et al. (2023), Nature Communications  
-- This repo: https://github.com/[your-username]/PersiZyme-PETase-2025
-
-Questions? Contact team lead or tournament@alignbio.org.
-
-We look forward to experimental validation and potential Generative Phase!
-
-**Committed to open, reproducible protein engineering for sustainable plastic degradation.**
